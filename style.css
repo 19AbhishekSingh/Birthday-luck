@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap');
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #264569;
+}
+
+.header{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.disclaimer-line {
+    display: block;
+    margin: 2rem auto;
+    font-weight: 100;
+    text-align: center;
+    max-width: 80%;
+}
+
+.dob-heading {
+    text-align: center;
+}
+
+.lucky-number-heading{
+    text-align: center;
+}
+
+#date-of-birth {
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 15rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+}
+
+#lucky-number {
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 15rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+}
+
+#check-number {
+    font-weight: bolder;
+    display: block;
+    margin: 2rem auto;
+    border: 0;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+#output-box {
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+    border: 1px solid black;
+    width: 30rem;
+    padding: 2rem;
+    max-width: 80%;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+}
+
+
