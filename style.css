@@ -78,4 +78,18 @@ body {
     border: 1px solid var(--primary-color);
 }
 
+.privacy {
+    font-weight: bolder;
+    display: block;
+    margin: 5rem auto;
+    border: 0;
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: white;
+    width: 35rem;
+    height: 5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
 
